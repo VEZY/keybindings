@@ -1,0 +1,9 @@
+'body':
+  'ctrl-numpad1': 'window:focus-pane-above'
+  'ctrl-numpad2': 'window:focus-pane-below'
+'.platform-win32 .item-views > atom-text-editor[data-grammar="source julia"], .platform-linux .item-views > atom-text-editor[data-grammar="source julia"]':
+  'f1': 'julia-client:show-documentation'
+'atom-workspace atom-text-editor:not([mini])':
+  'ctrl-:': 'editor:toggle-line-comments'
+'atom-text-editor':
+  'ctrl-i': 'editor:auto-indent'
